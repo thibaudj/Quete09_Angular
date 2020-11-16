@@ -1,0 +1,9 @@
+<div>
+  <h2>{{ developer.firstName }} {{ developer.lastName }}</h2>
+  <p>{{ developer.bio }}</p>
+  <ul *ngFor="let skill of developer.skills">
+    <li>
+      <app-skill [skill]="skill"></app-skill>
+    </li>
+  </ul>
+</div>

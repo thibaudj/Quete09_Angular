@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "quete09"
+    }
+  },
+  "defaultProject": "quete09",
+  "cli": {
+    "analytics": false
+  }
 }
